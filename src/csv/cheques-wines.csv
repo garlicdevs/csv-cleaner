@@ -1,0 +1,70 @@
+Fecha de ingreso,Mes,Año,Número,Banco,Monto,Clasificación,Emisor
+2023-11-28 00:00:00,11,2023,Saldo,Banco I,-123326.39,Saldo Bancario,Saldo Bancario
+2023-11-28 00:00:00,11,2023,Saldo,Fondo de Inversión,1744825.48,Saldo Bancario,Saldo Bancario
+2023-11-28 00:00:00,11,2023,Saldo,Banco G,1649818.51,Saldo Bancario,Saldo Bancario
+2023-11-29 00:00:00,11,2023,391888,ITAU ,-39161.58,Cheques emitidos,Insumos
+2023-11-29 00:00:00,11,2023,10035684,ITAU ,-188281.6,Cheques emitidos,Cajas
+2023-11-29 00:00:00,11,2023,10035707,,-324813.96,Cheques emitidos,Transportes
+2023-11-29 00:00:00,11,2023,204218,,-101035.0,Cheques emitidos,Pallets
+2023-11-29 00:00:00,11,2023,10035734,,-7048.25,Cheques emitidos,Cajas
+2023-11-29 00:00:00,11,2023,204249,,-20907.0,Cheques emitidos,Despachante
+2023-11-29 00:00:00,11,2023,204319,,-1852529.0,Cheques emitidos,Uva
+2023-11-29 00:00:00,11,2023,204303,,-348793.88,Cheques emitidos,Insumos
+2023-11-29 00:00:00,11,2023,10035808,,-282081.133333333,Cheques emitidos,Servicios Enológicos
+2023-11-29 00:00:00,11,2023,10035809,,-282081.133333333,Cheques emitidos,Servicios Enológicos
+2023-11-29 00:00:00,11,2023,204368,,-37147.0,Cheques emitidos,Plagas
+2023-11-29 00:00:00,11,2023,10035820,,-38008.69,Cheques emitidos,Lacre
+2023-12-16 00:00:00,12,2023,,,-243153.26,Cheques emitidos,Plan de pago 1
+2023-12-16 00:00:00,12,2023,,,-298852.45,Cheques emitidos,Plan de pago 2
+2024-01-16 00:00:00,1,2024,,,-298852.45,Cheques emitidos,Plan de pago 2
+2024-02-16 00:00:00,2,2024,,,-298852.45,Cheques emitidos,Plan de pago 2
+2024-03-16 00:00:00,3,2024,,,-298852.45,Cheques emitidos,Plan de pago 2
+2024-04-16 00:00:00,4,2024,,,-298852.45,Cheques emitidos,Plan de pago 2
+2024-05-16 00:00:00,5,2024,,,-298852.45,Cheques emitidos,Plan de pago 2
+2023-12-16 00:00:00,12,2023,,,-658131.35,Cheques emitidos,Plan de pago 3
+2024-01-16 00:00:00,1,2024,,,-658131.35,Cheques emitidos,Plan de pago 3
+2023-12-16 00:00:00,12,2023,,,-1098629.92,Cheques emitidos,Plan de pago 4
+2024-01-16 00:00:00,1,2024,,,-1098629.92,Cheques emitidos,Plan de pago 4
+2024-02-16 00:00:00,2,2024,,,-1098629.92,Cheques emitidos,Plan de pago 4
+2024-03-16 00:00:00,3,2024,,,-1098629.92,Cheques emitidos,Plan de pago 4
+2024-04-16 00:00:00,4,2024,,,-1098629.92,Cheques emitidos,Plan de pago 4
+2024-05-16 00:00:00,5,2024,,,-1098629.92,Cheques emitidos,Plan de pago 4
+2024-06-16 00:00:00,6,2024,,,-1098629.92,Cheques emitidos,Plan de pago 4
+2024-07-16 00:00:00,7,2024,,,-1098629.92,Cheques emitidos,Plan de pago 4
+2024-08-16 00:00:00,8,2024,,,-1098629.92,Cheques emitidos,Plan de pago 4
+2024-09-16 00:00:00,9,2024,,,-1098629.92,Cheques emitidos,Plan de pago 4
+2024-10-16 00:00:00,10,2024,,,-1098629.92,Cheques emitidos,Plan de pago 4
+2024-11-16 00:00:00,11,2024,,,-1098629.92,Cheques emitidos,Plan de pago 4
+2023-11-29 00:00:00,11,2023,10035837,,-250000.0,Cheques emitidos,Abogados
+2023-11-29 00:00:00,11,2023,,,0.0,Cheques emitidos,Mano de obra
+2023-12-14 00:00:00,12,2023,198,,223586.31,Cheques en cartera,VN
+2023-12-15 00:00:12,12,2023,00000092,,2743527.56,Cheques en cartera,Bass
+2024-01-01 00:00:12,1,2024,00737634,,2000000.0,Cheques en cartera,ALT
+2023-12-29 00:00:12,12,2023,00737633,,1800843.0,Cheques en cartera,ALT
+2023-12-03 00:00:00,12,2023,10035853,,-14076886.21,Cheques emitidos,Botellas
+2023-12-10 00:00:00,12,2023,4567443,,73200.0,Cheques en cartera,Club 
+2023-12-14 00:00:00,12,2023,10035856,,-735262.38,Cheques emitidos,Cajas
+2023-12-27 00:00:12,12,2023,90017126,,2080763.8,Cheques en cartera,G
+2023-12-21 00:00:12,12,2023,90017125,,2080000.0,Cheques en cartera,G
+2023-12-14 00:00:12,12,2023,90017124,,2080000.0,Cheques en cartera,G
+2023-12-10 00:00:12,12,2023,90017120,,1738607.2,Cheques en cartera,G
+2023-12-04 00:00:12,12,2023,90017119,,1738600.0,Cheques en cartera,G
+2024-01-05 00:00:12,1,2024,03607700,,63180.0,Cheques en cartera,NICOLAS 
+2023-12-06 00:00:12,12,2023,03607699,,63180.0,Cheques en cartera,NICOLAS 
+2023-11-30 00:00:00,11,2023,10035857,,-2069769.26,Cheques emitidos,Etiquetas
+2024-01-18 00:00:12,1,2024,00000193,,655297.6,Cheques en cartera,MKT
+2024-01-02 00:00:12,1,2024,00000195,,650000.0,Cheques en cartera,MKT
+2023-12-18 00:00:12,12,2023,00000192,,650000.0,Cheques en cartera,MKT
+2023-12-08 00:00:00,12,2023,204428,,-219300.0,Cheques emitidos,Seguros
+2023-12-15 00:00:00,12,2023,204429,,-219300.0,Cheques emitidos,Seguros
+2023-12-22 00:00:00,12,2023,204430,,-219300.0,Cheques emitidos,Seguros
+2023-12-29 00:00:00,12,2023,204431,,-219300.0,Cheques emitidos,Seguros
+2024-01-05 00:00:00,1,2024,204432,,-219300.0,Cheques emitidos,Seguros
+2023-12-09 00:00:00,12,2023,10035859,,-615032.335,Cheques emitidos,Servicios Enológicos
+2024-01-09 00:00:00,1,2024,10035860,,-615032.335,Cheques emitidos,Servicios Enológicos
+2024-01-23 00:00:12,1,2024,24448977,,335400.0,Cheques en cartera,Man
+2023-11-29 00:00:00,11,2023,,,-230610.0,Cheques emitidos,Electricidad
+2023-11-29 00:00:00,11,2023,,,-1500000.0,Sueldos,Retenciones
+2023-11-29 00:00:00,11,2023,,,-3941828.78,Sueldos,Formulario 931
+2023-11-29 00:00:00,11,2023,,,13250318.5,Cobro Expo,Brasil
+2023-11-29 00:00:00,11,2023,,,-10000000.0,Sueldos,Sueldos
