@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSV Cleaner API Documentation</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .endpoint { margin-bottom: 40px; }
+        h2, h3 { color: #333; }
+        code { background-color: #f4f4f4; padding: 2px 6px; }
+    </style>
+</head>
+<body>
+    <h1>CSV Cleaner API Documentation</h1>
+    <p>This document provides an overview and usage details for the CSV Cleaner API, enabling clients to interact with CSV file processing functionalities, including type inference, metadata fetching, and file content delivery.</p>
+
+    <div class="endpoint">
+        <h2>Type Inference</h2>
+        <h3>POST /api/type-infer/</h3>
+        <p>Upload a CSV file to infer column data types. This endpoint expects a multipart/form-data request containing the file and optional configuration parameters.</p>
+        <h3>Example Request</h3>
+        <code>curl -X POST -F 'document=@path/to/yourfile.csv' http://yourserver/api/type-infer/</code>
+    </div>
+
+    <div class="endpoint">
+        <h2>Update Column Data Type</h2>
+        <h3>POST /api/update-dtype/</h3>
+        <p>Allows updating the data type of specific columns in a previously uploaded CSV file. The request body should contain the file name and the column updates.</p>
+        <h3>Example Request</h3>
+        <code>curl -X POST -H "Content-Type: application/json" -d '{"file_name": "yourfile.csv", "column_updates": [{"column_name": "age", "data_type": "integer"}]}' http://yourserver/api/update-dtype/</code>
+    </div>
+
+    <div class="endpoint">
+        <h2>API Documentation</h2>
+        <h3>GET /api/documentation/</h3>
+        <p>Provides access to this HTML-based API documentation.</p>
+    </div>
+
+    <div class="endpoint">
+        <h2>List CSV Files</h2>
+        <h3>GET /api/list-csv-files/</h3>
+        <p>Returns a list of all CSV files that have been processed and stored.</p>
+    </div>
+
+    <div class="endpoint">
+        <h2>Fetch File Content</h2>
+        <h3>GET /api/fetch-file-content/&lt;str:file_name&gt;/</h3>
+        <p>Download the content of a specific CSV file. Replace &lt;str:file_name&gt; with the actual file name.</p>
+    </div>
+
+    <div class="endpoint">
+        <h2>Fetch File Metadata</h2>
+        <h3>GET /api/fetch-file-metadata/&lt;str:file_name&gt;/</h3>
+        <p>Retrieve metadata for a specific CSV file, including inferred column data types and a URL to download the file. Replace &lt;str:file_name&gt; with the actual file name.</p>
+    </div>
+</body>
+</html>
