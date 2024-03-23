@@ -1,7 +1,6 @@
 # CSV Type-Infer Project
 
 Welcome to the CSV Cleaner project! This document provides instructions on setting up the project environment, running the server, and executing backend tests.
-[Click here to watch the video](screen_recording.mp4)
 
 ## Prerequisites
 
