@@ -176,7 +176,7 @@ class CsvTypeInferView(views.APIView):
                 'float16': 'float', 'float32': 'float', 'float64': 'float',
                 'complex64': 'complex', 'complex128': 'complex',
                 'object': 'text', 'bool': 'boolean',
-                'category': 'category', 'datetime64[ns]': 'datetime', 'timedelta[ns]': 'timedelta'
+                'category': 'category', 'datetime64[ns]': 'datetime', 'timedelta64[ns]': 'timedelta'
             }
 
             # Prepare response data by iterating over DataFrame columns and their data types

@@ -19,7 +19,7 @@ function CsvFileViewer({ fileName }) {
     'float16', 'float32', 'float64',
     'complex64', 'complex128',
     'object', 'bool',
-    'category', 'datetime64[ns]', 'timedelta[ns]'
+    'category', 'datetime64[ns]', 'timedelta64[ns]'
   ];
 
   const handleUserDefinedTypeChange = (column, type) => {

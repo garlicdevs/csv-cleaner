@@ -7,7 +7,7 @@ license = "OpenGL"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = ">=3.10,<3.11"
 pandas = "^2.2.1"
 django = "^5.0.3"
 environs = "^11.0.0"
@@ -21,7 +21,9 @@ pylint-django = "^2.5.5"
 pytest-cov = "^4.1.0"
 pytest-django = "^4.8.0"
 django-cors-headers = "^4.3.1"
-
+scipy = "1.8.1"
+scikit-learn = "1.1.1"
+pytimeparse = "1.1.8"
 
 [tool.poetry.group.dev.dependencies]
 pytest-django = "^4.8.0"

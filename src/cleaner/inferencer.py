@@ -4,7 +4,8 @@ import warnings
 import os
 from collections import Counter
 from typing import Any, Dict
-from cleaner.type_checker import check_boolean, check_numeric, check_complex, check_datetime, check_category, check_timedelta
+from cleaner.type_checker import check_boolean, check_numeric, check_complex, check_datetime, check_category, \
+    check_timedelta, try_parse_timedelta, try_parse_date
 from cleaner.utils import zip_float_dtype, zip_float_to_int_dtype, zip_int_dtype
 
 
@@ -44,9 +45,9 @@ class DataFrameTypeInferencer:
             return 'object'
 
         if str(column.dtype) == 'object':
-            for check in (check_boolean, check_numeric, check_complex, check_datetime, check_category):
+            for check in (check_boolean, check_numeric, check_complex, check_datetime, check_timedelta, check_category):
                 if check is check_category:
-                    dtype = check(valid_values, unique_threshold=self.category_threshold)
+                    dtype = check(valid_values)
                 else:
                     dtype = check(valid_values, threshold=self.valid_threshold)
                 if dtype is not None:
@@ -115,6 +116,9 @@ class DataFrameTypeInferencer:
             try:
                 if dtype == 'datetime64[ns]':
                     df[column] = pd.to_datetime(df[column], errors='coerce', format='mixed')
+                elif dtype == 'timedelta64[ns]':
+                    converted = df[column].apply(lambda x: try_parse_timedelta(x) if pd.notnull(x) else pd.NaT)
+                    df[column] = pd.to_timedelta(converted)
                 elif dtype == 'category':
                     df[column] = df[column].astype('category')
                 elif dtype in ['Int8', 'Int16', 'Int32', 'Int64']:
@@ -146,6 +150,7 @@ class DataFrameTypeInferencer:
 if __name__ == '__main__':
     files = os.listdir('../csv/')
     for file in files:
-        file_path = os.path.join('../csv', file)
-        inference = DataFrameTypeInferencer(file_path)
-        inference.infer_and_convert()
+        if 'challenging' in file:
+            file_path = os.path.join('../csv', file)
+            inference = DataFrameTypeInferencer(file_path)
+            inference.infer_and_convert()
